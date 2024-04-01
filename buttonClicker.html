@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./buttonClicker.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav d-flex jusContent-between">
+            <h1 class="xx-large">Dojonary</h1>
+            <div class="gap-190 d-flex jusContent-between">
+                <input class="search" type="text" name="search" id="search" placeholder="                  Search">
+                <button class="btn" onclick="turnLogout(this)">Login</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="defination d-flex jusContent-between">
+            <div class="ninjaTop d-flex">
+                <div class="ninja1 column d-flex">
+                    <h2 class="xx-large">ninja</h2>
+                    <h4 class="x-large">noun</h4>
+                    <p class="x-large">Plural: ninjas</p>
+                    <button class="btnLikes" onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="infoNinja d-flex column">
+                    <h2 class="x-large">Apractioner skilled in the</h2>
+                    <div class="d-flex alnCenter">
+                        <a class="x-large colorLink" href="#">Japanese</a>
+                        <h3 class="x-large">art of</h3>
+                        <a class="x-large colorLink" href="#">ninjutsu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="boxDefined column d-flex">
+                <h2 class="x-large">Dojonary is</h2>
+                <p class="x-large w-700">defined by <span>YOU</span></p>
+                <button class="btnDefined" onclick="hide(this)">Add defination</button>
+            </div>
+        </div>
+        <div class="ninjaBottom d-flex">
+            <div class="ninja2 column d-flex">
+                <h2 class="xx-large">ninja</h2>
+                <h4 class="x-large">noun</h4>
+                <p class="x-large">Plural: ninjas</p>
+                <button class="btnLikes" onclick="alert('Ninja was liked')">37 Likes</button>
+            </div>
+            <div class="infoNinjaBottom d-flex column">
+                <h2 class="x-large m-top50">A <a class="x-large mLeftRight colorLink" href="#">Programer </a>who breaks </h2>
+                <div class="d-flex alnCenter">
+                    <div>
+                        <h3 class="x-large">down problems with <a class="x-large colorLink" href="#">Zen</a>-like</h3>
+                        <h3 class="x-large"> focus</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./buttonClicker.js"></script>
+</body>
+
+</html>

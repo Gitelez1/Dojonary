@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.d-flex{
+    display: flex;
+}
+.alnCenter{
+    align-items: center;
+}
+.jusContent-between{
+    justify-content: space-between;
+}
+.jusContent-around{
+    justify-content: space-around;
+}
+.jusContent-evenly{
+    justify-content: space-evenly;
+}
+.column{
+    flex-direction: column;
+}
+body{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+}
+.nav{
+    margin: 20px;
+    background-color: gray;
+    padding: 20px 50px;
+}
+.gap-190{
+    gap: 190px;
+}
+.btn{
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 5px 25px;
+    box-shadow: 3px 3px black;
+    font-style: italic;
+}
+.search{
+    padding: 0px 100px;
+}
+
+/* MAIN */
+.x-large{
+    font-size: x-large;
+}
+.xx-large{
+    font-size: xx-large;
+}
+.w-700{
+    font-weight: 700;
+}
+.btnLikes{
+    background-color: #ffd966;
+    color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+    font-style: italic;
+    margin-top: 10px;
+}
+.ninjaTop{
+    border: 2px solid black;
+    padding: 20px 40px 20px 20px;
+    gap: 200px;
+    width: 65.5%;
+}
+.ninja1{
+    line-height: 1.7;
+}
+.defination{
+    margin: 10px 20px;
+}
+.infoNinja a{
+    font-weight: 900;
+}
+.infoNinja h3{
+    padding: 0px 10px;
+}
+.infoNinja h2{
+    margin-top: 60px;
+}
+.boxDefined{
+    border: 2px solid black;
+    padding: 30px 20px;
+    width: 20%;
+}
+.btnDefined{
+    background-color: #93c47d;
+    color: black;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+/* BOX BOTTOM */
+.ninjaBottom{
+    border: 2px solid black;
+    margin: 30px 20px;
+    width: 65%;
+    padding: 30px 20px;
+}
+.infoNinjaBottom {
+    margin-left: 180px;
+}
+.m-top50{
+    margin-top: 50px;
+}
+.ninja2{
+    line-height: 1.7;
+}
+.mLeftRight{
+    margin: 0 5px;
+}
+.colorLink{
+    color: #2667a0;
+}
